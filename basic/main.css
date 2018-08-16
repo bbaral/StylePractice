@@ -60,6 +60,20 @@ body {
   border-bottom: 3px solid #b4b4b4;
 }
 
+.main-nav-item-cta a {
+  color: white;
+  background: #ff1b68;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.main-nav-item-cta a:hover,
+.main-nav-item-cta a:active {
+  color: red;
+  background: white;
+  border: none;
+}
+
 #product-overview {
   background: #ff1b68;
   width: 100%;
