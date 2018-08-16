@@ -50,13 +50,14 @@ body {
 .main-nav-item a {
   text-decoration: none;
   color: #0e4f1f;
+  font-weight: bold;
+  padding: 3px 0;
 }
 
-.main-nav-item a:hover {
-  color: white;
-}
+.main-nav-item a:hover,
 .main-nav-item a:active {
-  color: blue;
+  color: #93d6c2;
+  border-bottom: 3px solid #b4b4b4;
 }
 
 #product-overview {
